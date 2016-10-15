@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(183, 22, 27);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+}
+p{
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+}
+.optionKey{
+  float: right;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+.subBox{
+  width: 350px;
+  height: 75px;
+  display: inline-block;
+  background-color: rgb(230, 187, 188);
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+.submit{
+  margin: auto;
+  width: 100%;
+}
