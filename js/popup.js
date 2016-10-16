@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     chrome.tabs.getSelected(null, function(tab) {
       obj.url = tab.url;
     });
-    obj.email = "seansmail@email.fake";
+    obj.email = document.getElementById('email').innerHTML;
     obj.image = dataUrl;
     obj.status = 0;
   });
