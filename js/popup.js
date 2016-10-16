@@ -27,11 +27,9 @@ function settings(e){
 
 document.addEventListener('DOMContentLoaded', function() {
   chrome.tabs.captureVisibleTab(null, function(dataUrl) {
-    var currentDate = new Date();
     chrome.tabs.getSelected(null, function(tab) {
       obj.url = tab.url;
     });
-    obj.timestamp = ((currentDate.getMonth() + 1) + "/" + currentDate.getDate() + "/" + currentDate.getFullYear() + " @ " + currentDate.getHours() + ":" + currentDate.getMinutes() + currentDate.getSeconds());
     obj.email = "seansmail@email.fake";
     obj.image = dataUrl;
     obj.status = 0;
@@ -51,7 +49,7 @@ function submission(object) {
     }
   }
   xhr.open("POST", url, true);
-  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhr.setRequestHeader("Content-type", "application/json");
   xhr.send(params);
 
 }
