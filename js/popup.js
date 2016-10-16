@@ -21,7 +21,7 @@ function settings(e) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  chrome.tabs.captureVisibleTab(null, function(dataUrl) {
+  chrome.tabs.captureVisibleTab(null, {format:"jpeg",quality:50}, function(dataUrl) {
     chrome.tabs.getSelected(null, function(tab) {
       obj.url = tab.url;
     });
