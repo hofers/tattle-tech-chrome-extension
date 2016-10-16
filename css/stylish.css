@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(248, 250, 252);
   font-family: 'Montserrat', sans-serif;
   font-size: 14pt;
@@ -6,91 +6,89 @@ body{
   height: 224px;
   width: 327px;
 }
-label{
+label {
   display: inline-block;
   margin-bottom: 8px;
   margin-top: 8px;
 }
-button{
+button {
   font-family: 'Montserrat', sans-serif;
   font-size: 11pt;
   text-align: center;
   vertical-align: middle;
   outline: none;
 }
-img{
+img {
   margin-left: -5px;
   height: 26px;
   width: 26px;
 }
-textarea{
+textarea {
   outline: none;
   resize: none;
 }
-squares{
-  position: absolute;
-  right: 0;
-}
-.optionKey{
+.optionKey {
   margin-left: 2px;
   float: right;
-	background-color:rgb(64, 137, 177);
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border-radius:2px;
-	border:1px solid rgb(64, 137, 177);
-	display:inline-block;
-	cursor:pointer;
-	color:white;
+  background-color: rgb(64, 137, 177);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid rgb(64, 137, 177);
+  display: inline-block;
+  cursor: pointer;
+  color: white;
   height: 30px;
   width: 30px;
-	text-decoration:none;
+  text-decoration: none;
+  right: 0;
+  position: absolute;
 }
 .optionKey:hover {
-	background-color:rgb(59, 128, 165);
+  background-color: rgb(59, 128, 165);
 }
 .optionKey:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 .submit {
   margin: auto;
-	background-color:rgb(64, 137, 177);
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border-radius:2px;
-	border:1px solid rgb(64, 137, 177);
-	display:inline-block;
-	cursor:pointer;
-	color:white;
-	padding:10px 20px;
-	text-decoration:none;
+  background-color: rgb(64, 137, 177);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid rgb(64, 137, 177);
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 .submit:hover {
-	background-color:rgb(59, 128, 165);
+  background-color: rgb(59, 128, 165);
 }
 .submit:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-#main{
+#main {
   z-index: 0;
   position: absolute;
 }
-#wrap{
+#wrap {
   text-align: center;
 }
-#thing{
+#thing {
   font-size: 13px;
 }
-#email{
+#email {
   font-size: 13px;
 }
-#category{
+#category {
   margin-left: 15px;
   outline: none;
 }
-#settingMenu{
+#settingMenu {
   visibility: hidden;
   position: absolute;
 }

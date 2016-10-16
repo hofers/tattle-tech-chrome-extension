@@ -4,7 +4,7 @@
   "version": "0.5",
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon" : "assets/Icon.png"
+    "default_icon": "assets/Icon.png"
   },
   "permissions": [
     "<all_urls>",
