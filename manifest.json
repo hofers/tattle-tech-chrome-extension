@@ -3,12 +3,11 @@
   "name": "Bully Report Tool",
   "version": "0.5",
   "browser_action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon" : "assets/Icon.png"
   },
   "permissions": [
     "<all_urls>",
-    "tabs",
-    "tabCapture",
-    "background"
+    "tabs"
   ]
 }

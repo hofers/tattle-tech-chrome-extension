@@ -2,15 +2,34 @@ body{
   background-color: rgb(248, 250, 252);
   font-family: 'Montserrat', sans-serif;
   font-size: 14pt;
+  position: relative;
+  height: 224px;
+  width: 327px;
 }
-p{
+label{
   display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 button{
   font-family: 'Montserrat', sans-serif;
   font-size: 11pt;
   text-align: center;
   vertical-align: middle;
+  outline: none;
+}
+img{
+  margin-left: -5px;
+  height: 26px;
+  width: 26px;
+}
+textarea{
+  outline: none;
+  resize: none;
+}
+squares{
+  position: absolute;
+  right: 0;
 }
 .optionKey{
   margin-left: 2px;
@@ -54,13 +73,24 @@ button{
 	position:relative;
 	top:1px;
 }
+#main{
+  z-index: 0;
+  position: absolute;
+}
 #wrap{
   text-align: center;
 }
+#thing{
+  font-size: 13px;
 }
 #email{
   font-size: 13px;
 }
 #category{
   margin-left: 15px;
+  outline: none;
+}
+#settingMenu{
+  visibility: hidden;
+  position: absolute;
 }

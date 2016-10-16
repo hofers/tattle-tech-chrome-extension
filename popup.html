@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" type="text/css" href="css/stylish.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-  <script src="js/popup.js"> </script>
-<body>
-  <button class="optionKey" id="about">i </button>
-  <button class="optionKey" id="settings">s </button>
-    <p>Sean Hofer<br/>
-    <thing id="email">seansmail@email.fake </thing></p><br/>
-    <p>Abuse Type </p>
-    <select id="category">
-      <option value="bul">Bullying</option>
-      <option value="sex">Sexual Harassment</option>
-      <option value="thr">Threat</option>
-    </select>
-    <p><textarea id="description" style="height:45px; width: 305px;">Please enter any additional information here</textarea></p>
-  <div id="wrap"><button class="submit" value="submit" id="submit">Submit</button></div>
-</body>
+  <link rel="stylesheet" type="text/css" href="css/stylish.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+  <script src="js/popup.js">
+  </script>
+
+  <body>
+    <sec id="main">
+      <label>Sean Hofer
+        <br/>
+        <thing id="email">seansmail@email.fake </thing>
+      </label>
+      <br/>
+      <label style="font-size:0.8em;">Abuse Type </label>
+      <select id="category">
+        <option value="bul">Bullying</option>
+        <option value="sex">Sexual Harassment</option>
+        <option value="thr">Threat</option>
+      </select>
+      <label>
+        <textarea id="description" style="height:45px; width: 305px;" placeholder="Please enter any additional information here"></textarea>
+      </label>
+      <div id="wrap">
+        <button class="submit" value="submit" id="submit">Submit</button>
+      </div>
+    </sec>
+    <sec id="settingMenu">
+      <button class="submit" id="logout">Logout</button>
+    </sec>
+    <squares>
+      <button class="optionKey" id="about"><img src="assets/info.svg"> </img>
+      </button>
+      <button class="optionKey" id="settings"><img src="assets/gear.svg"> </img>
+      </button>
+    </squares>
+  </body>
+
 </html>
