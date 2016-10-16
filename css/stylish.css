@@ -108,4 +108,5 @@ select, textarea {
 #settingMenu {
   visibility: hidden;
   position: absolute;
+  margin: 4px;
 }
