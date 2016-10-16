@@ -6,6 +6,11 @@
     "default_popup": "popup.html",
     "default_icon": "assets/Icon.png"
   },
+  "icons": {
+    "16": "assets/Icon16.png",
+    "48": "assets/Icon48.png",
+    "128": "assets/Icon128.png"
+  },
   "permissions": [
     "<all_urls>",
     "tabs"
