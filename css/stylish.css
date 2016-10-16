@@ -3,7 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14pt;
   position: relative;
-  height: 224px;
+  height: 240px;
   width: 327px;
 }
 label {
@@ -23,10 +23,18 @@ img {
   height: 26px;
   width: 26px;
 }
+#description {
+  height: 73px;
+  width: 309px;
+}
 textarea {
   outline: none;
   resize: none;
 }
+select, textarea {
+  border-radius: 3px;
+}
+
 .optionKey {
   margin-left: 2px;
   float: right;
@@ -72,6 +80,7 @@ textarea {
   top: 1px;
 }
 #main {
+  padding: 0 5px;
   z-index: 0;
   position: absolute;
 }
@@ -81,10 +90,18 @@ textarea {
 #thing {
   font-size: 13px;
 }
+#school {
+  margin-top: 8px;
+    font-size: 12px;
+    line-height: 3px;
+    color: #5f6d75;
+    font-weight: 500;
+}
 #email {
-  font-size: 13px;
+  display: none;
 }
 #category {
+  padding: 5px;
   margin-left: 15px;
   outline: none;
 }

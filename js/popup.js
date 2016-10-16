@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     chrome.tabs.getSelected(null, function(tab) {
       obj.url = tab.url;
     });
-    obj.email = "seansmail@email.fake";
+    obj.email = "jake.ferrante@hotmail.com";
     obj.image = dataUrl;
     obj.status = 0;
   });
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function submission(object) {
-  var url = "http://bully-report-system.azurewebsites.net/api/ticket/submit";
+  var url = "http://localhost:3000/api/ticket/submit";
   var params = object;
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
